@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Ejemplo Float 1
+        </title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+
+            header {
+                height: 50px;
+                background: rosybrown;
+            }
+        
+            div {
+                height: 50px;
+                width: 50px;
+            }
+
+            footer {
+                height: 25px;
+                background: sandybrown;
+            }
+
+            section {
+                /* Truquito que mantiene la altura del elemento contenedor de otros elementos flotantes */
+                overflow: hidden;
+            }
+
+            .rojo {
+                background: red;
+            }
+
+            .azul {
+                background: blue;
+            }
+
+            .verde {
+                background: green;
+            }
+
+            .violeta {
+                background: violet;
+                clear: both;
+            }
+
+            .float-izq {
+                float: left;
+            }
+            
+            .float-der {
+                float: right;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <section>
+            <div class="rojo float-izq">
+
+            </div>
+            <div class="azul float-izq">
+
+            </div>
+            <div class="verde float-der">
+
+            </div>
+            <div class="violeta">
+
+            </div>
+        </section>
+        <footer>
+
+        </footer>
+    </body>
+</html>

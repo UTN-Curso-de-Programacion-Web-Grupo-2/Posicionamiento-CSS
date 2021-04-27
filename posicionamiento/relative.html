@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Ejemplo Float 1
+        </title>
+        <meta charset="UTF-8">
+        <style type="text/css">
+
+            header {
+                height: 50px;
+                background: rosybrown;
+            }
+        
+            div {
+                height: 50px;
+                width: 50px;
+            }
+
+            footer {
+                height: 25px;
+                background: sandybrown;
+            }
+
+            .rojo {
+                background: red;
+                position: relative;
+                top: 10px;
+                left: 20px;
+            }
+
+            .azul {
+                background: blue;
+                position: relative;
+                z-index: 3;
+            }
+
+            .verde {
+                background: green;
+                position: relative;
+                bottom: 10px;
+                left: 40px;
+            }
+
+            .violeta {
+                background: violet;
+            }
+           
+        </style>
+    </head>
+    <body>
+        <header>
+            Header
+        </header>
+        <section>
+            <div class="rojo float-izq">
+                DIV 1
+            </div>
+            <div class="azul float-izq">
+                DIV 2
+            </div>
+            <div class="verde float-der">
+                DIV 3
+            </div>
+            <div class="violeta">
+                DIV 4
+            </div>
+        </section>
+        <footer>
+            FOOTER
+        </footer>
+    </body>
+</html>
